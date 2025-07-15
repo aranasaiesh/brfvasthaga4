@@ -56,7 +56,7 @@ export default function StyrelseInfo() {
         {StyrelseInfo.map((StyrelseInfo) => (
           <div
             key={StyrelseInfo.id}
-            className=" rounded-lg overflow-hidden border border-gray-700"
+            className=" rounded-lg overflow-hidden border border-gray-700 dark:border-gray-400"
           >
             {/* Image Section */}
             {/* <div className="relative h-48 bg-gray-200 flex items-center justify-center mb-2">
@@ -65,15 +65,13 @@ export default function StyrelseInfo() {
             {/* Content Section */}
             <div className="p-4">
               <div className="text-center mb-4">
-                <h3 className="text-lg md:text-xl font-bold mb-1 text-gray-700">
+                <h3 className="text-lg md:text-xl font-bold mb-1">
                   {StyrelseInfo.name}
                 </h3>
-                <p className="text-sm font-medium text-gray-700 italic mb-1">
+                <p className="text-sm font-medium italic mb-1">
                   {StyrelseInfo.date}
                 </p>
-                <p className="text-sm text-gray-700 italic">
-                  {StyrelseInfo.info}
-                </p>
+                <p className="text-sm italic">{StyrelseInfo.info}</p>
               </div>
             </div>
           </div>

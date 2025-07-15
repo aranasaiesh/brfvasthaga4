@@ -86,7 +86,7 @@ export default function Form() {
         <div className="flex flex-col items-center mt-6">
           <button
             type="submit"
-            className="w-48 border border-blue-200 rounded-md p-2 bg-blue-200 hover:bg-blue-300 transition-colors"
+            className="w-48 border border-blue-200 rounded-md p-2 bg-blue-200 hover:bg-blue-300 transition-colors dark:text-[#121212]"
           >
             Skicka
           </button>

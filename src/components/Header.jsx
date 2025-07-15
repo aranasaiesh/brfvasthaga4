@@ -126,7 +126,7 @@ export default function Header() {
           </button>
           {omOssOpen && (
             <div
-              className="absolute z-10 mt-2 w-28 bg-#003049 border border-gray-200 rounded-md shadow-lg"
+              className="absolute z-10 mt-2 w-28  bg-white border border-gray-200 rounded-md shadow-lg dark:text-[#121212]"
               onMouseEnter={handleOmOssMouseEnter}
               onMouseLeave={handleOmOssMouseLeave}
             >
@@ -175,7 +175,7 @@ export default function Header() {
             Information
           </button>
           {infoOpen && (
-            <div className="absolute z-10 mt-2 w-28 bg-white border border-gray-200 rounded-md shadow-lg before:content-[''] before:absolute before:-top-2 before:left-0 before:right-0 before:h-2">
+            <div className="absolute z-10 mt-2 w-28 bg-white border border-gray-200 rounded-md shadow-lg before:content-[''] before:absolute before:-top-2 before:left-0 before:right-0 before:h-2 dark:text-[#121212]">
               <Link
                 to="/Styrelseinfo"
                 onClick={closeDropdowns}
